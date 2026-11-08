@@ -1,0 +1,15 @@
+name: GrandEvent
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+author: EnderDevelopment
+description: Long cinematic location based events.
+commands:
+  event:
+    description: Starts and controls the Grand Event.
+    usage: /event <start|stop|status|points>
+    permission: grandevent.use
+permissions:
+  grandevent.use:
+    description: Allows control of Grand Events.
+    default: op
